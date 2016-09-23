@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.WebUI", "App.WebUI\App.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.WebUITests", "App.WebUITests\App.WebUITests.csproj", "{022838E2-0812-4783-BDF2-2059502A3B24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{03860739-3E2B-4FA5-85F3-6D6B89863D09}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Owin.dll = Lib\Owin.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
